@@ -1,0 +1,18 @@
+<div class="row input-bar">
+  <div class="col-xs-10">
+    <form *ngIf="onIsEditable()" [formGroup]="myForm" (ngSubmit)="onSubmit()">
+      <div class="form-group text-bar">
+        <input
+          type="text"
+          id="message"
+          class="form-control"
+          formControlName="message">
+      </div>
+      <button type="submit" class="btn btn-primary" [disabled]="!myForm.valid">Write</button>
+    </form>
+  </div>
+  <div class="col-xs-2 chalk">
+    <p>Write?</p>
+    <img src="./assets/images/chalk.png"  (click)="toggleEditMode()">
+  </div>
+</div>

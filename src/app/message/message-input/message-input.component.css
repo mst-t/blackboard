@@ -1,0 +1,25 @@
+.input-bar {
+  width: 100%;
+  position: fixed;
+  bottom: 1em;
+}
+
+.text-bar {
+  width: 75%;
+  float: left;
+}
+
+.btn {
+  margin-left: 14px;
+  float: left;
+}
+
+.chalk {
+  cursor: pointer;
+  position: absolute;
+  max-width: 150px;
+  width: 15%;
+  height: auto;
+  right: 10%;
+  bottom: 2px;
+}

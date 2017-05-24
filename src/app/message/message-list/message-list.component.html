@@ -1,0 +1,7 @@
+<ul>
+  <li *ngFor="let message of messages">
+    <span>{{message.content}}</span>
+    <a href="#" *ngIf="onIsEditable()" (click)="onEdit(message)">Edit</a>
+    <a href="#" *ngIf="onIsEditable()" (click)="onDelete(message)">Delete</a>
+  </li>
+</ul>
