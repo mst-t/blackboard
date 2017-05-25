@@ -3,7 +3,8 @@ This project was created using the MEAN stack.
 
 ## Prerequisite
 Install MongoDB and Node.js.
-Set the path to your database on line 9 of the `server.js`.
+Set the path to your database on line 7 of the `server.js`.
+Run your MongoDB.
 
 ## Code scaffolding and Build
 Download all files and run `npm install`. Required node modules will be installed.
